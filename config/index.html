@@ -4,9 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;  /* Horizontally center */
+    align-items: center;      /* Vertically center */
+}
+
+/* Button styling */
+button.center-button {
+    background-color: black;
+    color: green;
+    border: 2px solid green; /* Border color */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow */
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+}
+
+button.center-button:hover {
+    background-color: green;
+    color: black;
+    border-color: black; /* Inverse the border color on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+}
+
   </head>
+  
   <body>
-    <button>
+    <button class="center-button">
       <a href="../config/html/index.html">LINK TO THE TONA WEBSITE</a>
     </button>
   </body>
