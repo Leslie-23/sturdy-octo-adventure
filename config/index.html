@@ -13,6 +13,18 @@
       align-items: center;      /* Vertically center */
       background-color: black;  
       }
+
+      a {
+    text-decoration: none; /* No text decoration */
+    color: yellowgreen;    /* Set color to yellowgreen */
+    font-style: normal;    /* Normal font style initially */
+    transition: all 0.5s ease; /* Transition effect with a duration of 0.5s */
+}
+
+a:hover {
+    font-style: italic; /* Italic font style on hover */
+}
+
     </style>
 
 
@@ -35,7 +47,7 @@
     " 
     onmouseover="this.style.backgroundColor='green'; this.style.color='black'; this.style.borderColor='black'; this.style.boxShadow='0 8px 16px rgba(0, 0, 0, 0.4)';"
     onmouseout="this.style.backgroundColor='black'; this.style.color='green'; this.style.borderColor='green'; this.style.boxShadow='0 4px 8px rgba(0, 0, 0, 0.2)';">
-      <a style="color: yellowgreen text-decoration:none" href="../config/html/index.html">LINK TO THE TONA WEBSITE</a>
+      <a href="../config/html/index.html">LINK TO THE TONA WEBSITE</a>
     </button>
   </body>
 </html>
